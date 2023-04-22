@@ -1,0 +1,36 @@
+.searchdiv {
+    margin-top: 20px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.searchdiv>input[type="text"] {
+    background-color: white;
+    border: none;
+    color: rgba(0, 0, 0, 0.411);
+    padding: 1vmax 2vmax;
+    width: 50%;
+    outline: none;
+    font-family: "Roboto";
+}
+
+.searchdiv>input[type="button"] {
+    background-color: tomato;
+    border: none;
+    padding: 1vmax;
+    width: 10%;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.searchdiv>input[type="button"]:hover {
+    background-color: rgba(137, 43, 226, 0.658);
+}
+.font{
+    font-family: "Roboto";
+}
